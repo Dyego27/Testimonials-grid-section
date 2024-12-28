@@ -2,6 +2,50 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 81%);
     font-family: "Bai Jamjuree", serif;
     font-weight: 200;
+}
+.container{
+    margin: 20px;
+}
+.Daniel{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(263, 55%, 52%);
+}
+.Daniel .perfil{
+    display: flex;
+    align-items: center;
+}
+.Daniel .perfil .verified{
+    margin-left: 15px;
+}
+.Daniel .perfil .verified p{
+    color: hsl(0, 0%, 100%);
+}
+.Daniel .perfil .verified span{
+    color: hsl(0, 0%, 81%);
+}
+.Daniel .perfil img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.Daniel h3{
+   margin: 20px 0;
+   font-size: 22px;
+   color: hsl(0, 0%, 100%);
+}
+.Daniel  p{
+    font-size: 17px;
+    color: hsl(0, 0%, 81%);
+}
+.Daniel .quotes{
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    width: 90px;
 }
